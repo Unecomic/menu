@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    justify-content: space-around; 
+    align-items:center;
+    padding: 10px;
+    background-color: #d814d87e;
+  }
+   header div {
+    padding: 10px 20px;
+    border: 2px solid #333;
+  }
+   header div:hover {
+    color:rgb(153, 53, 140);
+    border-color:black
+  }
+  main{
+    height:600px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    border-color: black;
+    background-color: rgb(19, 196, 209);
+  }
+ 
+  #lewo{
+   flex: 1;
+   background-color: rgb(255, 255, 255);
+   margin:50px;
+  }
+  #prawo{
+    flex: 1;
+    background-color: rgb(253, 253, 253);
+    margin:50px
+     ;
+
+  }
+  footer{
+    height:200px;
+    background-color: rgb(95, 95, 105);
+    border-color: black;
+  }
+  h1{
+  
+  }
